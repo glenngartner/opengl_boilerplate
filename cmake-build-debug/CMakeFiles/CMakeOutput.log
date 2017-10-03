@@ -615,3 +615,101 @@ make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e695f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e695f.dir/build.make CMakeFiles/cmTC_e695f.dir/build
+make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e695f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e695f.dir/CheckIncludeFile.c.o   -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e695f
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e695f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e695f.dir/CheckIncludeFile.c.o  -o cmTC_e695f 
+make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9d38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9d38.dir/build.make CMakeFiles/cmTC_e9d38.dir/build
+make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9d38.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e9d38.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e9d38
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9d38.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e9d38.dir/CheckFunctionExists.c.o  -o cmTC_e9d38 -lpthread 
+make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a7ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a7ed.dir/build.make CMakeFiles/cmTC_6a7ed.dir/build
+make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a7ed.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_6a7ed.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a7ed
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a7ed.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_6a7ed.dir/CheckFunctionExists.c.o  -o cmTC_6a7ed /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_129fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_129fd.dir/build.make CMakeFiles/cmTC_129fd.dir/build
+make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_129fd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_129fd.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_129fd
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_129fd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_129fd.dir/CheckFunctionExists.c.o  -o cmTC_129fd 
+make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21424/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21424.dir/build.make CMakeFiles/cmTC_21424.dir/build
+make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21424.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_21424.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_21424
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21424.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_21424.dir/CheckFunctionExists.c.o  -o cmTC_21424 
+make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abab4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abab4.dir/build.make CMakeFiles/cmTC_abab4.dir/build
+make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abab4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_abab4.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_abab4
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abab4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_abab4.dir/CheckFunctionExists.c.o  -o cmTC_abab4 
+make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b36e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b36e2.dir/build.make CMakeFiles/cmTC_b36e2.dir/build
+make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b36e2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_b36e2.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b36e2
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b36e2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_b36e2.dir/CheckFunctionExists.c.o  -o cmTC_b36e2 
+make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+

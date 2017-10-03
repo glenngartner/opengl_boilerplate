@@ -63,10 +63,10 @@ CMAKE_BINARY_DIR = /home/g/workspace/opengl/starter01/cmake-build-debug
 # Target rules for target CMakeFiles/starter01.dir
 
 # All Build rule for target.
-CMakeFiles/starter01.dir/all:
+CMakeFiles/starter01.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/depend
 	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target starter01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles --progress-num=18,19,20,21 "Built target starter01"
 .PHONY : CMakeFiles/starter01.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/starter01.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/starter01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/starter01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/starter01.dir/rule
@@ -93,6 +93,112 @@ CMakeFiles/starter01.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/starter01.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory lib/glfw
+
+# Convenience name for "all" pass in the directory.
+lib/glfw/all: lib/glfw/src/all
+
+.PHONY : lib/glfw/all
+
+# Convenience name for "clean" pass in the directory.
+lib/glfw/clean: lib/glfw/CMakeFiles/uninstall.dir/clean
+lib/glfw/clean: lib/glfw/src/clean
+
+.PHONY : lib/glfw/clean
+
+# Convenience name for "preinstall" pass in the directory.
+lib/glfw/preinstall: lib/glfw/src/preinstall
+
+.PHONY : lib/glfw/preinstall
+
+#=============================================================================
+# Target rules for target lib/glfw/CMakeFiles/uninstall.dir
+
+# All Build rule for target.
+lib/glfw/CMakeFiles/uninstall.dir/all:
+	$(MAKE) -f lib/glfw/CMakeFiles/uninstall.dir/build.make lib/glfw/CMakeFiles/uninstall.dir/depend
+	$(MAKE) -f lib/glfw/CMakeFiles/uninstall.dir/build.make lib/glfw/CMakeFiles/uninstall.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles --progress-num= "Built target uninstall"
+.PHONY : lib/glfw/CMakeFiles/uninstall.dir/all
+
+# Build rule for subdir invocation for target.
+lib/glfw/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/CMakeFiles/uninstall.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles 0
+.PHONY : lib/glfw/CMakeFiles/uninstall.dir/rule
+
+# Convenience name for target.
+uninstall: lib/glfw/CMakeFiles/uninstall.dir/rule
+
+.PHONY : uninstall
+
+# clean rule for target.
+lib/glfw/CMakeFiles/uninstall.dir/clean:
+	$(MAKE) -f lib/glfw/CMakeFiles/uninstall.dir/build.make lib/glfw/CMakeFiles/uninstall.dir/clean
+.PHONY : lib/glfw/CMakeFiles/uninstall.dir/clean
+
+# clean rule for target.
+clean: lib/glfw/CMakeFiles/uninstall.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory lib/glfw/src
+
+# Convenience name for "all" pass in the directory.
+lib/glfw/src/all: lib/glfw/src/CMakeFiles/glfw.dir/all
+
+.PHONY : lib/glfw/src/all
+
+# Convenience name for "clean" pass in the directory.
+lib/glfw/src/clean: lib/glfw/src/CMakeFiles/glfw.dir/clean
+
+.PHONY : lib/glfw/src/clean
+
+# Convenience name for "preinstall" pass in the directory.
+lib/glfw/src/preinstall:
+
+.PHONY : lib/glfw/src/preinstall
+
+#=============================================================================
+# Target rules for target lib/glfw/src/CMakeFiles/glfw.dir
+
+# All Build rule for target.
+lib/glfw/src/CMakeFiles/glfw.dir/all:
+	$(MAKE) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/depend
+	$(MAKE) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target glfw"
+.PHONY : lib/glfw/src/CMakeFiles/glfw.dir/all
+
+# Include target in all.
+all: lib/glfw/src/CMakeFiles/glfw.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+lib/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles 17
+	$(MAKE) -f CMakeFiles/Makefile2 lib/glfw/src/CMakeFiles/glfw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles 0
+.PHONY : lib/glfw/src/CMakeFiles/glfw.dir/rule
+
+# Convenience name for target.
+glfw: lib/glfw/src/CMakeFiles/glfw.dir/rule
+
+.PHONY : glfw
+
+# clean rule for target.
+lib/glfw/src/CMakeFiles/glfw.dir/clean:
+	$(MAKE) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/clean
+.PHONY : lib/glfw/src/CMakeFiles/glfw.dir/clean
+
+# clean rule for target.
+clean: lib/glfw/src/CMakeFiles/glfw.dir/clean
 
 .PHONY : clean
 

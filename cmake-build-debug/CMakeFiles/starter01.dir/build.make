@@ -81,17 +81,73 @@ CMakeFiles/starter01.dir/main.cpp.o.provides: CMakeFiles/starter01.dir/main.cpp.
 CMakeFiles/starter01.dir/main.cpp.o.provides.build: CMakeFiles/starter01.dir/main.cpp.o
 
 
+CMakeFiles/starter01.dir/GL_Renderer.cpp.o: CMakeFiles/starter01.dir/flags.make
+CMakeFiles/starter01.dir/GL_Renderer.cpp.o: ../GL_Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/starter01.dir/GL_Renderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/starter01.dir/GL_Renderer.cpp.o -c /home/g/workspace/opengl/starter01/GL_Renderer.cpp
+
+CMakeFiles/starter01.dir/GL_Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/starter01.dir/GL_Renderer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/g/workspace/opengl/starter01/GL_Renderer.cpp > CMakeFiles/starter01.dir/GL_Renderer.cpp.i
+
+CMakeFiles/starter01.dir/GL_Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/starter01.dir/GL_Renderer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/g/workspace/opengl/starter01/GL_Renderer.cpp -o CMakeFiles/starter01.dir/GL_Renderer.cpp.s
+
+CMakeFiles/starter01.dir/GL_Renderer.cpp.o.requires:
+
+.PHONY : CMakeFiles/starter01.dir/GL_Renderer.cpp.o.requires
+
+CMakeFiles/starter01.dir/GL_Renderer.cpp.o.provides: CMakeFiles/starter01.dir/GL_Renderer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/GL_Renderer.cpp.o.provides.build
+.PHONY : CMakeFiles/starter01.dir/GL_Renderer.cpp.o.provides
+
+CMakeFiles/starter01.dir/GL_Renderer.cpp.o.provides.build: CMakeFiles/starter01.dir/GL_Renderer.cpp.o
+
+
+CMakeFiles/starter01.dir/lib/glad/src/glad.c.o: CMakeFiles/starter01.dir/flags.make
+CMakeFiles/starter01.dir/lib/glad/src/glad.c.o: ../lib/glad/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/starter01.dir/lib/glad/src/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/starter01.dir/lib/glad/src/glad.c.o   -c /home/g/workspace/opengl/starter01/lib/glad/src/glad.c
+
+CMakeFiles/starter01.dir/lib/glad/src/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/starter01.dir/lib/glad/src/glad.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/g/workspace/opengl/starter01/lib/glad/src/glad.c > CMakeFiles/starter01.dir/lib/glad/src/glad.c.i
+
+CMakeFiles/starter01.dir/lib/glad/src/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/starter01.dir/lib/glad/src/glad.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/g/workspace/opengl/starter01/lib/glad/src/glad.c -o CMakeFiles/starter01.dir/lib/glad/src/glad.c.s
+
+CMakeFiles/starter01.dir/lib/glad/src/glad.c.o.requires:
+
+.PHONY : CMakeFiles/starter01.dir/lib/glad/src/glad.c.o.requires
+
+CMakeFiles/starter01.dir/lib/glad/src/glad.c.o.provides: CMakeFiles/starter01.dir/lib/glad/src/glad.c.o.requires
+	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/lib/glad/src/glad.c.o.provides.build
+.PHONY : CMakeFiles/starter01.dir/lib/glad/src/glad.c.o.provides
+
+CMakeFiles/starter01.dir/lib/glad/src/glad.c.o.provides.build: CMakeFiles/starter01.dir/lib/glad/src/glad.c.o
+
+
 # Object files for target starter01
 starter01_OBJECTS = \
-"CMakeFiles/starter01.dir/main.cpp.o"
+"CMakeFiles/starter01.dir/main.cpp.o" \
+"CMakeFiles/starter01.dir/GL_Renderer.cpp.o" \
+"CMakeFiles/starter01.dir/lib/glad/src/glad.c.o"
 
 # External object files for target starter01
 starter01_EXTERNAL_OBJECTS =
 
 starter01: CMakeFiles/starter01.dir/main.cpp.o
+starter01: CMakeFiles/starter01.dir/GL_Renderer.cpp.o
+starter01: CMakeFiles/starter01.dir/lib/glad/src/glad.c.o
 starter01: CMakeFiles/starter01.dir/build.make
+starter01: lib/glfw/src/libglfw3.a
+starter01: /usr/lib/x86_64-linux-gnu/librt.so
+starter01: /usr/lib/x86_64-linux-gnu/libm.so
+starter01: /usr/lib/x86_64-linux-gnu/libX11.so
 starter01: CMakeFiles/starter01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable starter01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable starter01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/starter01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +156,8 @@ CMakeFiles/starter01.dir/build: starter01
 .PHONY : CMakeFiles/starter01.dir/build
 
 CMakeFiles/starter01.dir/requires: CMakeFiles/starter01.dir/main.cpp.o.requires
+CMakeFiles/starter01.dir/requires: CMakeFiles/starter01.dir/GL_Renderer.cpp.o.requires
+CMakeFiles/starter01.dir/requires: CMakeFiles/starter01.dir/lib/glad/src/glad.c.o.requires
 
 .PHONY : CMakeFiles/starter01.dir/requires
 
