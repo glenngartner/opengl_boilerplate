@@ -15,7 +15,7 @@ void GL_Renderer::setup() {
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 //    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
-    this->window = glfwCreateWindow(800, 600, "Learn OpenGL", NULL, NULL);
+    this->window = glfwCreateWindow(800, 600, "Binary Tree", NULL, NULL);
 
     if (this->window == nullptr){
         std::cout << "Failed to create GLFW window" << std::endl;
