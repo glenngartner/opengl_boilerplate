@@ -28,28 +28,28 @@ The CXX compiler identification is Clang, found in "/home/g/workspace/opengl/sta
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_22868/fast"
-/usr/bin/make -f CMakeFiles/cmTC_22868.dir/build.make CMakeFiles/cmTC_22868.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5d41c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d41c.dir/build.make CMakeFiles/cmTC_5d41c.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_22868.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_22868.dir/testCCompiler.c.o   -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_22868
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22868.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_22868.dir/testCCompiler.c.o  -o cmTC_22868 
+Building C object CMakeFiles/cmTC_5d41c.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5d41c.dir/testCCompiler.c.o   -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5d41c
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d41c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5d41c.dir/testCCompiler.c.o  -o cmTC_5d41c 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ba8db/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ba8db.dir/build.make CMakeFiles/cmTC_ba8db.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9af72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9af72.dir/build.make CMakeFiles/cmTC_9af72.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ba8db.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ba8db.dir/CMakeCCompilerABI.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ba8db
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba8db.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_ba8db.dir/CMakeCCompilerABI.c.o  -o cmTC_ba8db 
+Building C object CMakeFiles/cmTC_9af72.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9af72.dir/CMakeCCompilerABI.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_9af72
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9af72.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_9af72.dir/CMakeCCompilerABI.c.o  -o cmTC_9af72 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba8db' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfGyyE7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ba8db /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ba8db.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9af72' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cct59j8W.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_9af72 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_9af72.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ba8db/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ba8db.dir/build.make CMakeFiles/cmTC_ba8db.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9af72/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9af72.dir/build.make CMakeFiles/cmTC_9af72.dir/build]
   ignore line: [make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ba8db.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_ba8db.dir/CMakeCCompilerABI.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ba8db]
-  ignore line: [/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba8db.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_ba8db.dir/CMakeCCompilerABI.c.o  -o cmTC_ba8db ]
+  ignore line: [Building C object CMakeFiles/cmTC_9af72.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_9af72.dir/CMakeCCompilerABI.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_9af72]
+  ignore line: [/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9af72.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_9af72.dir/CMakeCCompilerABI.c.o  -o cmTC_9af72 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba8db' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfGyyE7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ba8db /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ba8db.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9af72' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cct59j8W.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_9af72 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_9af72.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccfGyyE7.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cct59j8W.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -108,7 +108,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ba8db] ==> ignore
+    arg [cmTC_9af72] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -120,7 +120,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_ba8db.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_9af72.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -154,14 +154,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_663f2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_663f2.dir/build.make CMakeFiles/cmTC_663f2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b33b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b33b4.dir/build.make CMakeFiles/cmTC_b33b4.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_663f2.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_663f2.dir/feature_tests.c.o   -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_663f2
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_663f2.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_663f2.dir/feature_tests.c.o  -o cmTC_663f2 
+Building C object CMakeFiles/cmTC_b33b4.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b33b4.dir/feature_tests.c.o   -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b33b4
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b33b4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b33b4.dir/feature_tests.c.o  -o cmTC_b33b4 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -174,14 +174,14 @@ make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4f48d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4f48d.dir/build.make CMakeFiles/cmTC_4f48d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_72cb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72cb6.dir/build.make CMakeFiles/cmTC_72cb6.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4f48d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_4f48d.dir/feature_tests.c.o   -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4f48d
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f48d.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_4f48d.dir/feature_tests.c.o  -o cmTC_4f48d 
+Building C object CMakeFiles/cmTC_72cb6.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_72cb6.dir/feature_tests.c.o   -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_72cb6
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72cb6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_72cb6.dir/feature_tests.c.o  -o cmTC_72cb6 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -194,14 +194,14 @@ make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e3904/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e3904.dir/build.make CMakeFiles/cmTC_e3904.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_de99b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de99b.dir/build.make CMakeFiles/cmTC_de99b.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e3904.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_e3904.dir/feature_tests.c.o   -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e3904
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3904.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_e3904.dir/feature_tests.c.o  -o cmTC_e3904 
+Building C object CMakeFiles/cmTC_de99b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_de99b.dir/feature_tests.c.o   -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_de99b
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de99b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_de99b.dir/feature_tests.c.o  -o cmTC_de99b 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -212,28 +212,28 @@ make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cc755/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cc755.dir/build.make CMakeFiles/cmTC_cc755.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_263ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_263ea.dir/build.make CMakeFiles/cmTC_263ea.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cc755.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_cc755.dir/testCXXCompiler.cxx.o -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_cc755
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc755.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_cc755.dir/testCXXCompiler.cxx.o  -o cmTC_cc755 
+Building CXX object CMakeFiles/cmTC_263ea.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_263ea.dir/testCXXCompiler.cxx.o -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_263ea
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_263ea.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_263ea.dir/testCXXCompiler.cxx.o  -o cmTC_263ea 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a676c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a676c.dir/build.make CMakeFiles/cmTC_a676c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6a42d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a42d.dir/build.make CMakeFiles/cmTC_6a42d.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a676c.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_a676c.dir/CMakeCXXCompilerABI.cpp.o -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a676c
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a676c.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_a676c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a676c 
+Building CXX object CMakeFiles/cmTC_6a42d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_6a42d.dir/CMakeCXXCompilerABI.cpp.o -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_6a42d
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a42d.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_6a42d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6a42d 
 clang version 3.8.0-2ubuntu4 (tags/RELEASE_380/final)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -245,7 +245,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a676c /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a676c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6a42d /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_6a42d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -253,14 +253,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a676c/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a676c.dir/build.make CMakeFiles/cmTC_a676c.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6a42d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6a42d.dir/build.make CMakeFiles/cmTC_6a42d.dir/build]
   ignore line: [make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a676c.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_a676c.dir/CMakeCXXCompilerABI.cpp.o -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a676c]
-  ignore line: [/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a676c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_a676c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a676c ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_6a42d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_6a42d.dir/CMakeCXXCompilerABI.cpp.o -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_6a42d]
+  ignore line: [/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a42d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_6a42d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6a42d ]
   ignore line: [clang version 3.8.0-2ubuntu4 (tags/RELEASE_380/final)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -274,7 +274,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a676c /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a676c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6a42d /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_6a42d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -282,7 +282,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a676c] ==> ignore
+    arg [cmTC_6a42d] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
@@ -295,7 +295,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/llvm-3.8/bin/../lib] ==> dir [/usr/lib/llvm-3.8/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_a676c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_6a42d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -328,14 +328,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5413f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5413f.dir/build.make CMakeFiles/cmTC_5413f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_703e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_703e2.dir/build.make CMakeFiles/cmTC_703e2.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5413f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_5413f.dir/feature_tests.cxx.o -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5413f
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5413f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_5413f.dir/feature_tests.cxx.o  -o cmTC_5413f 
+Building CXX object CMakeFiles/cmTC_703e2.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_703e2.dir/feature_tests.cxx.o -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_703e2
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_703e2.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_703e2.dir/feature_tests.cxx.o  -o cmTC_703e2 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -401,14 +401,14 @@ make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f9c54/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f9c54.dir/build.make CMakeFiles/cmTC_f9c54.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2e45f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e45f.dir/build.make CMakeFiles/cmTC_2e45f.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f9c54.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f9c54.dir/feature_tests.cxx.o -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f9c54
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9c54.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f9c54.dir/feature_tests.cxx.o  -o cmTC_f9c54 
+Building CXX object CMakeFiles/cmTC_2e45f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_2e45f.dir/feature_tests.cxx.o -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2e45f
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e45f.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2e45f.dir/feature_tests.cxx.o  -o cmTC_2e45f 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -474,14 +474,14 @@ make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f1c3c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f1c3c.dir/build.make CMakeFiles/cmTC_f1c3c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6cceb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6cceb.dir/build.make CMakeFiles/cmTC_6cceb.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f1c3c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f1c3c.dir/feature_tests.cxx.o -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f1c3c
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1c3c.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f1c3c.dir/feature_tests.cxx.o  -o cmTC_f1c3c 
+Building CXX object CMakeFiles/cmTC_6cceb.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_6cceb.dir/feature_tests.cxx.o -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6cceb
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cceb.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_6cceb.dir/feature_tests.cxx.o  -o cmTC_6cceb 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -547,14 +547,14 @@ make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_788c2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_788c2.dir/build.make CMakeFiles/cmTC_788c2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_35310/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35310.dir/build.make CMakeFiles/cmTC_35310.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_788c2.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_788c2.dir/feature_tests.cxx.o -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_788c2
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_788c2.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_788c2.dir/feature_tests.cxx.o  -o cmTC_788c2 
+Building CXX object CMakeFiles/cmTC_35310.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_35310.dir/feature_tests.cxx.o -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_35310
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35310.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_35310.dir/feature_tests.cxx.o  -o cmTC_35310 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -618,112 +618,112 @@ make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e695f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e695f.dir/build.make CMakeFiles/cmTC_e695f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_04ccd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04ccd.dir/build.make CMakeFiles/cmTC_04ccd.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e695f.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e695f.dir/CheckIncludeFile.c.o   -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e695f
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e695f.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e695f.dir/CheckIncludeFile.c.o  -o cmTC_e695f 
+Building C object CMakeFiles/cmTC_04ccd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_04ccd.dir/CheckIncludeFile.c.o   -c /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_04ccd
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04ccd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_04ccd.dir/CheckIncludeFile.c.o  -o cmTC_04ccd 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e9d38/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e9d38.dir/build.make CMakeFiles/cmTC_e9d38.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_23d38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23d38.dir/build.make CMakeFiles/cmTC_23d38.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e9d38.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e9d38.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e9d38
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9d38.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e9d38.dir/CheckFunctionExists.c.o  -o cmTC_e9d38 -lpthread 
+Building C object CMakeFiles/cmTC_23d38.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_23d38.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_23d38
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d38.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_23d38.dir/CheckFunctionExists.c.o  -o cmTC_23d38 -lpthread 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6a7ed/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6a7ed.dir/build.make CMakeFiles/cmTC_6a7ed.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2f824/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f824.dir/build.make CMakeFiles/cmTC_2f824.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6a7ed.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_6a7ed.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6a7ed
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a7ed.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_6a7ed.dir/CheckFunctionExists.c.o  -o cmTC_6a7ed /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+Building C object CMakeFiles/cmTC_2f824.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_2f824.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2f824
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f824.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_2f824.dir/CheckFunctionExists.c.o  -o cmTC_2f824 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_129fd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_129fd.dir/build.make CMakeFiles/cmTC_129fd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9edde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9edde.dir/build.make CMakeFiles/cmTC_9edde.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_129fd.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_129fd.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_129fd
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_129fd.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_129fd.dir/CheckFunctionExists.c.o  -o cmTC_129fd 
+Building C object CMakeFiles/cmTC_9edde.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_9edde.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9edde
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9edde.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_9edde.dir/CheckFunctionExists.c.o  -o cmTC_9edde 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_21424/fast"
-/usr/bin/make -f CMakeFiles/cmTC_21424.dir/build.make CMakeFiles/cmTC_21424.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6847e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6847e.dir/build.make CMakeFiles/cmTC_6847e.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_21424.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_21424.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_21424
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21424.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_21424.dir/CheckFunctionExists.c.o  -o cmTC_21424 
+Building C object CMakeFiles/cmTC_6847e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_6847e.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6847e
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6847e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_6847e.dir/CheckFunctionExists.c.o  -o cmTC_6847e 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_abab4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_abab4.dir/build.make CMakeFiles/cmTC_abab4.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_afe4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_afe4a.dir/build.make CMakeFiles/cmTC_afe4a.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_abab4.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_abab4.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_abab4
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abab4.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_abab4.dir/CheckFunctionExists.c.o  -o cmTC_abab4 
+Building C object CMakeFiles/cmTC_afe4a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_afe4a.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_afe4a
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afe4a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_afe4a.dir/CheckFunctionExists.c.o  -o cmTC_afe4a 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b36e2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b36e2.dir/build.make CMakeFiles/cmTC_b36e2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6faf9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6faf9.dir/build.make CMakeFiles/cmTC_6faf9.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b36e2.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_b36e2.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b36e2
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b36e2.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_b36e2.dir/CheckFunctionExists.c.o  -o cmTC_b36e2 
+Building C object CMakeFiles/cmTC_6faf9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_6faf9.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6faf9
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6faf9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_6faf9.dir/CheckFunctionExists.c.o  -o cmTC_6faf9 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
 Change Dir: /home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_17113/fast"
-/usr/bin/make -f CMakeFiles/cmTC_17113.dir/build.make CMakeFiles/cmTC_17113.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6e4ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e4ae.dir/build.make CMakeFiles/cmTC_6e4ae.dir/build
 make[1]: Entering directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_17113.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_17113.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_17113
-/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17113.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_17113.dir/CheckFunctionExists.c.o  -o cmTC_17113 -lICE 
+Building C object CMakeFiles/cmTC_6e4ae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_6e4ae.dir/CheckFunctionExists.c.o   -c /home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6e4ae
+/home/g/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e4ae.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_6e4ae.dir/CheckFunctionExists.c.o  -o cmTC_6e4ae -lICE 
 make[1]: Leaving directory '/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
