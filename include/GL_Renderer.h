@@ -16,7 +16,7 @@ public:
     int VAO;
     float vertices[];
 
-    void setup();
+    void setup(bool isFullScreen = false);
     void draw();
     static void framebufferSizeCallback(GLFWwindow *window, int width, int height);
     void processInput(GLFWwindow *window);

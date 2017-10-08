@@ -10,7 +10,7 @@
 #include <memory>
 #include <fstream>
 
-void GL_Renderer::setup() {
+void GL_Renderer::setup(bool isFullScreen) {
 
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
@@ -18,7 +18,12 @@ void GL_Renderer::setup() {
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
-    this->window = glfwCreateWindow(800, 600, "Binary Tree", NULL, NULL);
+    if (isFullScreen) {
+
+        this->window = glfwCreateWindow(800, 600, "Binary Tree", glfwGetPrimaryMonitor(), nullptr);
+    } else {
+        this->window = glfwCreateWindow(800, 600, "Binary Tree", nullptr, nullptr);
+    }
 
     if (this->window == nullptr) {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -73,8 +78,8 @@ int GL_Renderer::buildShaderProgram() {
 
     std::string vertShaderString = this->readFile("../src/shaders/vert.glsl");
     std::string fragShaderString = this->readFile("../src/shaders/frag.glsl");
-    const char* vertexShaderSource = vertShaderString.c_str();
-    const char* fragmentShaderSource = fragShaderString.c_str();
+    const char *vertexShaderSource = vertShaderString.c_str();
+    const char *fragmentShaderSource = fragShaderString.c_str();
 
     // build and compile our shader program
     // ------------------------------------
@@ -161,13 +166,13 @@ std::string GL_Renderer::readFile(const char *filePath) {
     std::string content;
     std::ifstream fileStream(filePath, std::ios::in);
 
-    if(!fileStream.is_open()) {
+    if (!fileStream.is_open()) {
         std::cerr << "Could not read file " << filePath << ". File does not exist." << std::endl;
         return "";
     }
 
     std::string line = "";
-    while(!fileStream.eof()) {
+    while (!fileStream.eof()) {
         std::getline(fileStream, line);
         content.append(line + "\n");
     }
