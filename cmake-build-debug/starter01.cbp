@@ -202,14 +202,11 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/g/workspace/opengl/starter01/GL_Renderer.cpp">
-			<Option target="starter01"/>
-		</Unit>
-		<Unit filename="/home/g/workspace/opengl/starter01/GL_Renderer.h">
-			<Option target="starter01"/>
-		</Unit>
 		<Unit filename="/home/g/workspace/opengl/starter01/cmake-build-debug/lib/glfw/src/glfw_config.h">
 			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/g/workspace/opengl/starter01/include/GL_Renderer.h">
+			<Option target="starter01"/>
 		</Unit>
 		<Unit filename="/home/g/workspace/opengl/starter01/lib/glad/src/glad.c">
 			<Option target="starter01"/>
@@ -298,7 +295,10 @@
 		<Unit filename="/home/g/workspace/opengl/starter01/lib/glfw/src/xkb_unicode.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/g/workspace/opengl/starter01/main.cpp">
+		<Unit filename="/home/g/workspace/opengl/starter01/src/GL_Renderer.cpp">
+			<Option target="starter01"/>
+		</Unit>
+		<Unit filename="/home/g/workspace/opengl/starter01/src/main.cpp">
 			<Option target="starter01"/>
 		</Unit>
 		<Unit filename="/home/g/workspace/opengl/starter01/CMakeLists.txt">

@@ -57,52 +57,52 @@ include CMakeFiles/starter01.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/starter01.dir/flags.make
 
-CMakeFiles/starter01.dir/main.cpp.o: CMakeFiles/starter01.dir/flags.make
-CMakeFiles/starter01.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/starter01.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/starter01.dir/main.cpp.o -c /home/g/workspace/opengl/starter01/main.cpp
+CMakeFiles/starter01.dir/src/main.cpp.o: CMakeFiles/starter01.dir/flags.make
+CMakeFiles/starter01.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/starter01.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/starter01.dir/src/main.cpp.o -c /home/g/workspace/opengl/starter01/src/main.cpp
 
-CMakeFiles/starter01.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/starter01.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/g/workspace/opengl/starter01/main.cpp > CMakeFiles/starter01.dir/main.cpp.i
+CMakeFiles/starter01.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/starter01.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/g/workspace/opengl/starter01/src/main.cpp > CMakeFiles/starter01.dir/src/main.cpp.i
 
-CMakeFiles/starter01.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/starter01.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/g/workspace/opengl/starter01/main.cpp -o CMakeFiles/starter01.dir/main.cpp.s
+CMakeFiles/starter01.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/starter01.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/g/workspace/opengl/starter01/src/main.cpp -o CMakeFiles/starter01.dir/src/main.cpp.s
 
-CMakeFiles/starter01.dir/main.cpp.o.requires:
+CMakeFiles/starter01.dir/src/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/starter01.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/starter01.dir/src/main.cpp.o.requires
 
-CMakeFiles/starter01.dir/main.cpp.o.provides: CMakeFiles/starter01.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/starter01.dir/main.cpp.o.provides
+CMakeFiles/starter01.dir/src/main.cpp.o.provides: CMakeFiles/starter01.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/starter01.dir/src/main.cpp.o.provides
 
-CMakeFiles/starter01.dir/main.cpp.o.provides.build: CMakeFiles/starter01.dir/main.cpp.o
+CMakeFiles/starter01.dir/src/main.cpp.o.provides.build: CMakeFiles/starter01.dir/src/main.cpp.o
 
 
-CMakeFiles/starter01.dir/GL_Renderer.cpp.o: CMakeFiles/starter01.dir/flags.make
-CMakeFiles/starter01.dir/GL_Renderer.cpp.o: ../GL_Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/starter01.dir/GL_Renderer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/starter01.dir/GL_Renderer.cpp.o -c /home/g/workspace/opengl/starter01/GL_Renderer.cpp
+CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o: CMakeFiles/starter01.dir/flags.make
+CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o: ../src/GL_Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o -c /home/g/workspace/opengl/starter01/src/GL_Renderer.cpp
 
-CMakeFiles/starter01.dir/GL_Renderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/starter01.dir/GL_Renderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/g/workspace/opengl/starter01/GL_Renderer.cpp > CMakeFiles/starter01.dir/GL_Renderer.cpp.i
+CMakeFiles/starter01.dir/src/GL_Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/starter01.dir/src/GL_Renderer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/g/workspace/opengl/starter01/src/GL_Renderer.cpp > CMakeFiles/starter01.dir/src/GL_Renderer.cpp.i
 
-CMakeFiles/starter01.dir/GL_Renderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/starter01.dir/GL_Renderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/g/workspace/opengl/starter01/GL_Renderer.cpp -o CMakeFiles/starter01.dir/GL_Renderer.cpp.s
+CMakeFiles/starter01.dir/src/GL_Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/starter01.dir/src/GL_Renderer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/g/workspace/opengl/starter01/src/GL_Renderer.cpp -o CMakeFiles/starter01.dir/src/GL_Renderer.cpp.s
 
-CMakeFiles/starter01.dir/GL_Renderer.cpp.o.requires:
+CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o.requires:
 
-.PHONY : CMakeFiles/starter01.dir/GL_Renderer.cpp.o.requires
+.PHONY : CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o.requires
 
-CMakeFiles/starter01.dir/GL_Renderer.cpp.o.provides: CMakeFiles/starter01.dir/GL_Renderer.cpp.o.requires
-	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/GL_Renderer.cpp.o.provides.build
-.PHONY : CMakeFiles/starter01.dir/GL_Renderer.cpp.o.provides
+CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o.provides: CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o.provides.build
+.PHONY : CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o.provides
 
-CMakeFiles/starter01.dir/GL_Renderer.cpp.o.provides.build: CMakeFiles/starter01.dir/GL_Renderer.cpp.o
+CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o.provides.build: CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o
 
 
 CMakeFiles/starter01.dir/lib/glad/src/glad.c.o: CMakeFiles/starter01.dir/flags.make
@@ -131,15 +131,15 @@ CMakeFiles/starter01.dir/lib/glad/src/glad.c.o.provides.build: CMakeFiles/starte
 
 # Object files for target starter01
 starter01_OBJECTS = \
-"CMakeFiles/starter01.dir/main.cpp.o" \
-"CMakeFiles/starter01.dir/GL_Renderer.cpp.o" \
+"CMakeFiles/starter01.dir/src/main.cpp.o" \
+"CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o" \
 "CMakeFiles/starter01.dir/lib/glad/src/glad.c.o"
 
 # External object files for target starter01
 starter01_EXTERNAL_OBJECTS =
 
-starter01: CMakeFiles/starter01.dir/main.cpp.o
-starter01: CMakeFiles/starter01.dir/GL_Renderer.cpp.o
+starter01: CMakeFiles/starter01.dir/src/main.cpp.o
+starter01: CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o
 starter01: CMakeFiles/starter01.dir/lib/glad/src/glad.c.o
 starter01: CMakeFiles/starter01.dir/build.make
 starter01: lib/glfw/src/libglfw3.a
@@ -155,8 +155,8 @@ CMakeFiles/starter01.dir/build: starter01
 
 .PHONY : CMakeFiles/starter01.dir/build
 
-CMakeFiles/starter01.dir/requires: CMakeFiles/starter01.dir/main.cpp.o.requires
-CMakeFiles/starter01.dir/requires: CMakeFiles/starter01.dir/GL_Renderer.cpp.o.requires
+CMakeFiles/starter01.dir/requires: CMakeFiles/starter01.dir/src/main.cpp.o.requires
+CMakeFiles/starter01.dir/requires: CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o.requires
 CMakeFiles/starter01.dir/requires: CMakeFiles/starter01.dir/lib/glad/src/glad.c.o.requires
 
 .PHONY : CMakeFiles/starter01.dir/requires

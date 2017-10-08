@@ -5,13 +5,13 @@ CMakeFiles/starter01.dir/lib/glad/src/glad.c.o: ../lib/glad/include/KHR/khrplatf
 CMakeFiles/starter01.dir/lib/glad/src/glad.c.o: ../lib/glad/include/glad/glad.h
 CMakeFiles/starter01.dir/lib/glad/src/glad.c.o: ../lib/glad/src/glad.c
 
-CMakeFiles/starter01.dir/GL_Renderer.cpp.o: ../lib/glad/include/KHR/khrplatform.h
-CMakeFiles/starter01.dir/GL_Renderer.cpp.o: ../lib/glad/include/glad/glad.h
-CMakeFiles/starter01.dir/GL_Renderer.cpp.o: ../lib/glfw/include/GLFW/glfw3.h
-CMakeFiles/starter01.dir/GL_Renderer.cpp.o: ../GL_Renderer.cpp
-CMakeFiles/starter01.dir/GL_Renderer.cpp.o: ../GL_Renderer.h
+CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o: ../include/GL_Renderer.h
+CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o: ../lib/glad/include/KHR/khrplatform.h
+CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o: ../lib/glad/include/glad/glad.h
+CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o: ../lib/glfw/include/GLFW/glfw3.h
+CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o: ../src/GL_Renderer.cpp
 
-CMakeFiles/starter01.dir/main.cpp.o: ../lib/glfw/include/GLFW/glfw3.h
-CMakeFiles/starter01.dir/main.cpp.o: ../GL_Renderer.h
-CMakeFiles/starter01.dir/main.cpp.o: ../main.cpp
+CMakeFiles/starter01.dir/src/main.cpp.o: ../include/GL_Renderer.h
+CMakeFiles/starter01.dir/src/main.cpp.o: ../lib/glfw/include/GLFW/glfw3.h
+CMakeFiles/starter01.dir/src/main.cpp.o: ../src/main.cpp
 

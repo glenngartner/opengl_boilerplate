@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/starter01.dir/main.cpp.o"
-  "CMakeFiles/starter01.dir/GL_Renderer.cpp.o"
+  "CMakeFiles/starter01.dir/src/main.cpp.o"
+  "CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o"
   "CMakeFiles/starter01.dir/lib/glad/src/glad.c.o"
   "starter01.pdb"
   "starter01"

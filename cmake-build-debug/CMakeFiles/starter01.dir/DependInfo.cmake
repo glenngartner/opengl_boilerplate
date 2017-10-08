@@ -17,8 +17,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/g/workspace/opengl/starter01/GL_Renderer.cpp" "/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/starter01.dir/GL_Renderer.cpp.o"
-  "/home/g/workspace/opengl/starter01/main.cpp" "/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/starter01.dir/main.cpp.o"
+  "/home/g/workspace/opengl/starter01/src/GL_Renderer.cpp" "/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o"
+  "/home/g/workspace/opengl/starter01/src/main.cpp" "/home/g/workspace/opengl/starter01/cmake-build-debug/CMakeFiles/starter01.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

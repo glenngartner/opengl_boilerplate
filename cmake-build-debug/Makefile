@@ -195,33 +195,6 @@ glfw/fast:
 	$(MAKE) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
-GL_Renderer.o: GL_Renderer.cpp.o
-
-.PHONY : GL_Renderer.o
-
-# target to build an object file
-GL_Renderer.cpp.o:
-	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/GL_Renderer.cpp.o
-.PHONY : GL_Renderer.cpp.o
-
-GL_Renderer.i: GL_Renderer.cpp.i
-
-.PHONY : GL_Renderer.i
-
-# target to preprocess a source file
-GL_Renderer.cpp.i:
-	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/GL_Renderer.cpp.i
-.PHONY : GL_Renderer.cpp.i
-
-GL_Renderer.s: GL_Renderer.cpp.s
-
-.PHONY : GL_Renderer.s
-
-# target to generate assembly for a file
-GL_Renderer.cpp.s:
-	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/GL_Renderer.cpp.s
-.PHONY : GL_Renderer.cpp.s
-
 lib/glad/src/glad.o: lib/glad/src/glad.c.o
 
 .PHONY : lib/glad/src/glad.o
@@ -249,32 +222,59 @@ lib/glad/src/glad.c.s:
 	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/lib/glad/src/glad.c.s
 .PHONY : lib/glad/src/glad.c.s
 
-main.o: main.cpp.o
+src/GL_Renderer.o: src/GL_Renderer.cpp.o
 
-.PHONY : main.o
+.PHONY : src/GL_Renderer.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/GL_Renderer.cpp.o:
+	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/src/GL_Renderer.cpp.o
+.PHONY : src/GL_Renderer.cpp.o
 
-main.i: main.cpp.i
+src/GL_Renderer.i: src/GL_Renderer.cpp.i
 
-.PHONY : main.i
+.PHONY : src/GL_Renderer.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/GL_Renderer.cpp.i:
+	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/src/GL_Renderer.cpp.i
+.PHONY : src/GL_Renderer.cpp.i
 
-main.s: main.cpp.s
+src/GL_Renderer.s: src/GL_Renderer.cpp.s
 
-.PHONY : main.s
+.PHONY : src/GL_Renderer.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/GL_Renderer.cpp.s:
+	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/src/GL_Renderer.cpp.s
+.PHONY : src/GL_Renderer.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/starter01.dir/build.make CMakeFiles/starter01.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -291,15 +291,15 @@ help:
 	@echo "... starter01"
 	@echo "... uninstall"
 	@echo "... glfw"
-	@echo "... GL_Renderer.o"
-	@echo "... GL_Renderer.i"
-	@echo "... GL_Renderer.s"
 	@echo "... lib/glad/src/glad.o"
 	@echo "... lib/glad/src/glad.i"
 	@echo "... lib/glad/src/glad.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/GL_Renderer.o"
+	@echo "... src/GL_Renderer.i"
+	@echo "... src/GL_Renderer.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
