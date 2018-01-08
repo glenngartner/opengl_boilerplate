@@ -19,7 +19,6 @@ void GL_Renderer::setup(bool isFullScreen) {
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
     if (isFullScreen) {
-
         this->window = glfwCreateWindow(800, 600, "Binary Tree", glfwGetPrimaryMonitor(), nullptr);
     } else {
         this->window = glfwCreateWindow(800, 600, "Binary Tree", nullptr, nullptr);
@@ -41,13 +40,13 @@ void GL_Renderer::setup(bool isFullScreen) {
     this->VAO = this->createGeo();
 }
 
-void GL_Renderer::draw() {
+void GL_Renderer::render() {
     while (!glfwWindowShouldClose(this->window)) {
         // process input
         this->processInput(this->window);
 
         // rendering commands
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClearColor(this->CLEAR_COLOR[0], this->CLEAR_COLOR[1], this->CLEAR_COLOR[2], this->CLEAR_COLOR[3]);
         glClear(GL_COLOR_BUFFER_BIT);
 
         glUseProgram(this->shaderProgram);
@@ -157,7 +156,7 @@ int GL_Renderer::createGeo() {
     return VAO;
 
 
-    // uncomment this call to draw in wireframe polygons.
+    // uncomment this call to render in wireframe polygons.
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
 }

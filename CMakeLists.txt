@@ -11,7 +11,7 @@ include_directories(${PROJECT_SOURCE_DIR}/lib/glfw/include ${PROJECT_SOURCE_DIR}
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES ${PROJECT_SOURCE_DIR}/src/main.cpp ${PROJECT_SOURCE_DIR}/src/GL_Renderer.cpp ${PROJECT_SOURCE_DIR}/include/GL_Renderer.h)
-add_executable(starter01 ${SOURCE_FILES} ${PROJECT_SOURCE_DIR}/lib/glad/src/glad.c)
+set(SOURCE_FILES ${SOURCE_FILES} ${PROJECT_SOURCE_DIR}/lib/glad/src/glad.c ${PROJECT_SOURCE_DIR}/src/main.cpp ${PROJECT_SOURCE_DIR}/src/GL_Renderer.cpp ${PROJECT_SOURCE_DIR}/include/GL_Renderer.h)
+add_executable(starter01 ${SOURCE_FILES})
 
 target_link_libraries(${PROJECT_NAME} glfw ${GLFW_LIBRARIES} ${GLAD_IBRARIES})
